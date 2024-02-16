@@ -10,6 +10,7 @@ import { Project } from './components/project/Project.jsx';
 import  Farm  from './pages/Farm.jsx';
 import LineChart from './components/Chart.jsx';
 import FarmTasks from "./pages/FarmTasks.jsx";
+import { ReactCam } from './components/ReactCam.jsx';
 
 const router = createBrowserRouter([
   {
@@ -25,8 +26,8 @@ const router = createBrowserRouter([
     element: <Farm />,
   },
   {
-    path: "/chart",
-    element: <LineChart />,
+    path: "/camera",
+    element: <ReactCam />,
   },
   {
     path: "/farm/:id/tasks",
