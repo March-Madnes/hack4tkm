@@ -5,10 +5,19 @@ export const Project = () => {
   return (
 
     <div className='mx-auto max-w-screen-md'>
-        <div className="back-banner h-20 p-3 bg-green-700">
+        <div className="back-banner h-20 p-3 bg-green-700 flex justify-between">
           <div>
             <div className="head3 text-[#fff]">I Moisture</div>
             <div className="head1 text-[#fff] tracking-wide"><b>Kollam</b></div>
+          </div>
+          <div className='text-white pr-3'>
+            <div className='flex justify-end align-center pb-3'>
+              <>25°C</>
+              <i className="fa-solid fa-temperature-three-quarters pl-3"></i>
+            </div>
+            <div className='flex justify-end align-center'>
+              17/02/2024
+              <i className="fa-solid fa-calendar-days pl-3"></i>            </div>
           </div>
         </div>
 
@@ -70,7 +79,7 @@ export const Project = () => {
         <div className="p-3">
           <div className="head2 pb-3 pt-2 font-normal">Daily Updates</div>
 
-<div id="toast-notification" class="w-full p-4 text-gray-900 bg-white rounded-3xl shadow mb-3 border border-green-500" role="alert">
+<div id="toast-notification" class="w-full p-4 text-gray-900 bg-white rounded-3xl border shadow-lg mb-3" role="alert">
     <div class="flex items-center">
         <div class="relative inline-block shrink-0">
             <span class=" inline-flex items-center justify-center w-6 h-6 bg-[#00b251] rounded-full">
@@ -88,7 +97,7 @@ export const Project = () => {
     </div>
 </div>
 
-<div id="toast-notification" class="w-full p-4 text-gray-900 bg-white rounded-3xl shadow mb-3 " role="alert">
+<div id="toast-notification" class="w-full p-4 text-gray-900 bg-white rounded-3xl border shadow-lg mb-3 " role="alert">
     <div class="flex items-center">
         <div class="relative inline-block shrink-0">
             <span class=" inline-flex items-center justify-center w-6 h-6 bg-[#00b251] rounded-full">
