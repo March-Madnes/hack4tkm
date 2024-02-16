@@ -33,31 +33,45 @@ export const FarmHeader = () => {
 export const Overview = () => {
   return (
     <div className="p-3">
-      <h1 className="text-2xl font-semibold text-green-700">Overview</h1>
-      <div className="flex flex-col gap-4">
-        <div className="flex flex-row gap-4">
-          <div className="flex flex-col gap-2">
+      <h1 className="text-2xl font-semibold text-green-700 py-3">Overview</h1>
+      <div className="flex flex-wrap gap-4 w-full">
+        <div className="flex flex-row w-full gap-4 justify-evenly">
+          <div className="flex flex-col gap-2 shadow-lg p-2 w-1/2 rounded-xl">
             <div className="text-xs text-gray-400">Total Area</div>
             <div className="text-lg font-semibold text-green-700">
               2.5 Acres
             </div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 shadow-lg p-2 w-1/2 rounded-xl">
             <div className="text-xs text-gray-400">Crop</div>
-            <div className="text-lg font-semibold text-green-700">Rice</div>
+            <div className="text-lg font-semibold">Rice</div>
           </div>
         </div>
-        <div className="flex flex-row gap-4">
-          <div className="flex flex-col gap-2">
+        <div className="flex flex-row w-full gap-4 justify-evenly">
+          <div className="flex flex-col gap-2 shadow-lg p-2 w-1/2 rounded-xl">
             <div className="text-xs text-gray-400">Cultivation Type</div>
             <div className="text-lg font-semibold text-green-700">Organic</div>
           </div>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-2 shadow-lg p-2 w-1/2 rounded-xl">
             <div className="text-xs text-gray-400">Yeild Goal</div>
-            <div className="text-lg font-semibold text-green-700">50 Tonne</div>
+            <div className="text-lg font-semibold text-orange-700">
+              50 Tonne
+            </div>
           </div>
         </div>
       </div>
+    </div>
+  );
+};
+
+export const Graph = () => {
+  return (
+    <div className="p-3 rounded-3xl shadow-lg">
+      <img
+        src="https://img.freepik.com/premium-vector/business-profit-increasing-concept-graph-chart-vector-stock-market-price-rising-with-green-infographic-chart-vector-share-market-business-financial-growth-success-info-vector_585735-700.jpg?w=360"
+        alt="graph"
+        className="w-full rounded-3xl"
+      />
     </div>
   );
 };
