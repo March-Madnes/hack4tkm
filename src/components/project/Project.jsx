@@ -4,15 +4,11 @@ import './project.css'
 export const Project = () => {
   return (
     <div className='mx-auto max-w-screen-md'>
-        {/* <div className="font-sans text-[24px] p-2 text-center" >
-            IMoisture
-        </div>
-        <div className="w-full p-4">
-          <img class="rounded-lg w-full" src="./images/banner.png" alt="" />
-        </div> */}
-        <div className="back-banner h-20 p-3">
-          <div className="head2 text-[#fff]">I Moisture</div>
-          <div className="head1 text-[#fff] tracking-wide"><b>Kollam</b></div>
+        <div className="back-banner h-20 p-3 bg-green-700">
+          <div>
+            <div className="head3 text-[#fff]">I Moisture</div>
+            <div className="head1 text-[#fff] tracking-wide"><b>Kollam</b></div>
+          </div>
         </div>
 
         <div className="head2 px-3 pt-3 font-normal">Your Projects</div>
@@ -20,15 +16,49 @@ export const Project = () => {
 
   <div class="grid grid-cols-2 md:grid-cols-3 gap-3 p-3">
       <div>
-          <img class="h-auto max-w-full rounded-3xl" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image.jpg" alt=""/>
+      <div
+      className="w-full rounded-3xl bg-cover bg-center flex flex-col justify-between items-end gap-8 shadow-lg"
+      style={{
+        backgroundImage:
+          "url(https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg)",
+      }}
+    >
+      <div className="p-3 bg-white rounded-tl-3xl rounded-br-3xl list-none flex flex-col items-stretch gap-2 text-right">
+        <div className="p-1">
+          <div className="text-xs text-gray-400">Last Updated:</div>
+          <li className="text-[8px] text-green-700 font-semibold">16 Feb 2024</li>
+        </div>
+        <div className="p-1">
+          <div className="head5 text-gray-400">Soil Status</div>
+          <li className="text-[8px] text-red-700 font-semibold">Severe Underhydration</li>
+        </div>
+      </div>
+    </div>
       </div>
       <div>
-          <img class="h-auto max-w-full rounded-3xl" src="https://flowbite.s3.amazonaws.com/docs/gallery/square/image-1.jpg" alt=""/>
+      <div
+      className="w-full rounded-3xl bg-cover bg-center flex flex-col justify-between items-end gap-8 shadow-lg"
+      style={{
+        backgroundImage:
+          "url(https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg)",
+      }}
+    >
+      <div className="p-3 bg-white rounded-tl-3xl rounded-br-3xl list-none flex flex-col items-stretch gap-2 text-right">
+        <div className="p-1">
+          <div className="text-xs text-gray-400">Last Updated:</div>
+          <li className="text-[8px] text-green-700 font-semibold">16 Feb 2024</li>
+        </div>
+        <div className="p-1">
+          <div className="head5 text-gray-400">Soil Status</div>
+          <li className="text-[8px] text-red-700 font-semibold">Severe Underhydration</li>
+        </div>
+      </div>
+    </div>
       </div>
   </div>
 
 
-<div class="p-6 bg-white border border-gray-200 rounded-3xl shadow bg-[#00b251] mx-3 mt-2 flex justify-between align-center">
+<div class="p-6 border border-gray-200 rounded-3xl shadow bg-green-700 mx-3 mt-2 flex justify-between align-center">
     <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 16 20">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 17V2a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a2 2 0 0 0-2 2Zm0 0a2 2 0 0 0 2 2h12M5 15V1m8 18v-4"/>
 </svg>
@@ -74,11 +104,7 @@ export const Project = () => {
         </div>
     </div>
 </div>
-
-
         </div>
-
-
     </div>
   )
 }
