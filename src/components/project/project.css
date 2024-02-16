@@ -1,0 +1,12 @@
+.back-banner{
+    height: 200px;
+    background-color: #00b251;
+    width: 100%;
+    border-bottom-right-radius:40px;
+    font-family: inter;
+}
+
+.updates{
+    width: 100%;
+    background-color: #00b251;
+}

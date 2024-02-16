@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.head1{
+    font-size: 32px;
+}
+.head2{
+    font-size: 24px;
+}
+.head3{
+    font-size: 18px;
+}
+.head4{
+    font-size: 16px;
+}
+.head5{
+    font-size: 14px;
+}
