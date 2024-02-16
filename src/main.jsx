@@ -8,6 +8,7 @@ import App from './App.jsx'
 import './index.css'
 import { Project } from './components/project/Project.jsx';
 import  Farm  from './pages/Farm.jsx';
+import LineChart from './components/Chart.jsx';
 
 const router = createBrowserRouter([
   {
@@ -21,6 +22,10 @@ const router = createBrowserRouter([
   {
     path: "/farm/:id",
     element: <Farm />,
+  },
+  {
+    path: "/chart",
+    element: <LineChart />,
   }
 ]);
 
