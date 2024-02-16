@@ -1,5 +1,5 @@
 import React from "react";
-import { FarmHeader, Overview } from "../components/project/Farm";
+import { FarmHeader, Overview } from "../components/Farm";
 
 const Farm = () => {
   return (
