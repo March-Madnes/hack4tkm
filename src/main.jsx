@@ -7,6 +7,7 @@ import {
 import App from './App.jsx'
 import './index.css'
 import { Project } from './components/project/Project.jsx';
+import  Farm  from './pages/Farm.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
     path: "/projects",
     element: <Project />,
   },
+  {
+    path: "/farm/:id",
+    element: <Farm />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
