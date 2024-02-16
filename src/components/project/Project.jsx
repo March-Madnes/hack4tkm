@@ -3,7 +3,7 @@ import './project.css'
 
 export const Project = () => {
   return (
-    
+
     <div className='mx-auto max-w-screen-md'>
         <div className="back-banner h-20 p-3 bg-green-700">
           <div>
@@ -88,7 +88,7 @@ export const Project = () => {
     </div>
 </div>
 
-<div id="toast-notification" class="w-full p-4 text-gray-900 bg-white rounded-3xl shadow mb-3 border border-green-500" role="alert">
+<div id="toast-notification" class="w-full p-4 text-gray-900 bg-white rounded-3xl shadow mb-3 " role="alert">
     <div class="flex items-center">
         <div class="relative inline-block shrink-0">
             <span class=" inline-flex items-center justify-center w-6 h-6 bg-[#00b251] rounded-full">
