@@ -3,6 +3,7 @@ import './project.css'
 
 export const Project = () => {
   return (
+    
     <div className='mx-auto max-w-screen-md'>
         <div className="back-banner h-20 p-3 bg-green-700">
           <div>
