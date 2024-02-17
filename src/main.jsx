@@ -11,6 +11,7 @@ import  Farm  from './pages/Farm.jsx';
 import LineChart from './components/Chart.jsx';
 import FarmTasks from "./pages/FarmTasks.jsx";
 import { ReactCam } from './components/ReactCam.jsx';
+import Recommend from './pages/recommend/Recommend.jsx';
 
 const router = createBrowserRouter([
   {
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
     path: "/farm/:id/tasks",
     element: <FarmTasks />,
   },
+  {
+    path: "/recommend",
+    element: <Recommend />,
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
