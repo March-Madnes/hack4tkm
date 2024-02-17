@@ -72,21 +72,21 @@ const NewFarm = () => {
               Print SHC
             </a>
           </div>
-          <label className="">
+          <label className="p-2">
             <input
               type="text"
               className="text-lg text-green-700 font-medium border-b-2 border-dashed border-green-700 pt-4 px-2 w-fit"
               placeholder="Nitrogen KG/HA"
             />
           </label>
-          <label className="">
+          <label className="p-2">
             <input
               type="text"
               className="text-lg text-green-700 font-medium border-b-2 border-dashed border-green-700 pt-4 px-2 w-fit"
               placeholder="Phosphorus KG/HA"
             />
           </label>
-          <label className="">
+          <label className="p-2">
             <input
               type="text"
               className="text-lg text-green-700 font-medium border-b-2 border-dashed border-green-700 pt-4 px-2 w-fit"
