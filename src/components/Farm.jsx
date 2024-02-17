@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export const FarmHeader = () => {
+  const navigate = useNavigate();
+  const addUpdate = () => {
+    navigate("/camera");
+  };
+
   return (
     <div
       className="w-full rounded-3xl bg-cover bg-center flex flex-col justify-between items-end gap-8 shadow-lg"
@@ -22,7 +28,7 @@ export const FarmHeader = () => {
           <div className="text-xs text-gray-400">Soil Status</div>
           <li className="text-red-700 font-semibold">Severe Underhydration</li>
         </div>
-        <button className="px-4 py-2 bg-green-700 text-white rounded-xl flex flex-row justify-center gap-3 items-center">
+        <button className="px-4 py-2 bg-green-700 text-white rounded-xl flex flex-row justify-center gap-3 items-center" onClick={addUpdate}>
           <p>Add Update</p>
           <img src="/icons/camera-solid.svg" alt="camera" className="w-5 h-5" />
         </button>
