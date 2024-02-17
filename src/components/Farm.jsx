@@ -86,3 +86,34 @@ export const Graph = () => {
     </div>
   );
 };
+
+export const FarmChip = ({ date, status }) => {
+  return (
+    <div>
+      <Link to={"farm/1"}>
+        <div
+          className="w-full rounded-3xl bg-cover bg-center flex flex-col justify-between items-end gap-8 shadow-lg"
+          style={{
+            backgroundImage:
+              "url(https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg)",
+          }}
+        >
+          <div className="p-3 bg-white rounded-tl-3xl rounded-br-3xl list-none flex flex-col items-stretch gap-2 text-right w-2/3">
+            <div className="p-1">
+              <div className="text-xs text-gray-400">Last Updated:</div>
+              <li className="text-sm text-green-700 font-semibold">
+                16 Feb 2024
+              </li>
+            </div>
+            <div className="p-1">
+              <div className="head5 text-gray-400">Soil Status</div>
+              <li className="text-sm text-red-700 font-semibold">
+                Severe Underhydration
+              </li>
+            </div>
+          </div>
+        </div>
+      </Link>
+    </div>
+  );
+};
