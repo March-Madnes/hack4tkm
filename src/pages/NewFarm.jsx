@@ -4,9 +4,38 @@ import { FarmHeader } from "../components/Farm";
 import Recommend from "./recommend/Recommend";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import { useEffect } from "react";
 
 const NewFarm = () => {
   const [selectedValue, setSelectedValue] = useState("default");
+
+  useEffect(() => {
+    const sendImage = async () => {
+      try {
+        const image = localStorage.getItem('capturedImage');
+        const formData = new FormData();
+        formData.append('image', image);
+
+        const response = await fetch('https://192.168.169.61:5000/api/predict', {
+          method: 'POST',
+          body: formData,
+        });
+
+        if (response.ok) {
+          // Handle successful response
+          const data = await response.json();
+          console.log(data);
+        } else {
+          // Handle error response
+          console.error('Error:', response.status);
+        }
+      } catch (error) {
+        console.error('Error:', error);
+      }
+    };
+
+    sendImage();
+  }, []);
 
   const handleDropdownChange = (event) => {
     setSelectedValue(event.target.value);
@@ -137,6 +166,7 @@ const NewFarm = () => {
             </button>
             <span className="text-xs text-gray-500 pt-1">Edit</span>
           </div> */}
+          <Link to={"/farm/1"} >
           <div className="flex flex-col justify-center items-center">
             <button
               type="submit"
@@ -150,8 +180,10 @@ const NewFarm = () => {
             </button>
             <span className="text-xs text-gray-500 pt-1">Submit</span>
           </div>
+          </Link>
         </div>
       </form>
+      <br /><br /><br />
       <Navbar />
     </div>
   );
