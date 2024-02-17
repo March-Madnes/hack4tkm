@@ -4,9 +4,8 @@ import Webcam from "react-webcam";
 import { useNavigate } from 'react-router-dom';
 
 const videoConstraints = {
-    // width: window.innerWidth,
-    width: '500',
-    height: '1000',
+    width: '1000',
+    height: '500',
     facingMode: "environment"
 };
 
