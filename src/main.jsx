@@ -15,7 +15,7 @@ import { ReactCam } from './components/ReactCam.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />,
+    element: <Project />,
   },
   {
     path: "/projects",
