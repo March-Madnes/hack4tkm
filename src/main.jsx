@@ -11,6 +11,7 @@ import  Farm  from './pages/Farm.jsx';
 import LineChart from './components/Chart.jsx';
 import FarmTasks from "./pages/FarmTasks.jsx";
 import { ReactCam } from './components/ReactCam.jsx';
+import NewFarm from "./pages/NewFarm.jsx";
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/farm/:id/tasks",
     element: <FarmTasks />,
+  },
+  {
+    path: "new-farm",
+    element: <NewFarm />,
   },
 ]);
 

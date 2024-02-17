@@ -107,9 +107,7 @@ export const FarmChip = ({ date, status }) => {
             </div>
             <div className="p-1">
               <div className="head5 text-gray-400">Soil Status</div>
-              <li className="text-sm text-red-700 font-semibold">
-                Severe Underhydration
-              </li>
+              <li className="text-sm text-red-700 font-semibold">Severe</li>
             </div>
           </div>
         </div>
