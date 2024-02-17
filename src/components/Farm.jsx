@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 
 export const FarmHeader = () => {
+  const image = localStorage.getItem("capturedImage");
+  const link = image ? image : "https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg";
   const navigate = useNavigate();
   const addUpdate = () => {
     navigate("/camera");
@@ -13,7 +15,7 @@ export const FarmHeader = () => {
       className="w-full rounded-3xl bg-cover bg-center flex flex-col justify-between items-end gap-8 shadow-lg"
       style={{
         backgroundImage:
-          "url(https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg)",
+          `url(${link})`,
       }}
     >
       <h1 className="p-3 text-3xl text-green-700 font-black bg-white rounded-bl-3xl text-right">
