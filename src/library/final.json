@@ -1,210 +1,236 @@
 [
-    {
-"id":  1,
-        "title": "Spacing:",
-        "content": "60 x 90cm in paired row system.",
-        "status": "complete",
-        "week": 1,
-        "due_date": "2022-01-08"
-    },
-    {
-"id":  2,
-        "title": "Climate and Soil",
-        "content": "Any well drained soil preferably red lateritic loam with a pH range of 5.5 -7.0 is best suited for tapioca cultivation. It thrives best in tropical, warm humid climate with well distributed rainfall of over 100 cm per annum. This crop can be cultivated upto an elevation of 1000 m.",
-        "status": "active",
-        "week": 2,
-        "due_date": "2022-01-15"
-    },
-    {
-"id":  3,
-        "title": "Preparation of field",
-        "content": "Plough the field 4 \u2013 5 times to get a fine tilth. The soil depth should be atleast 30 cm and form ridges and furrows at the following spacing.",
-        "status": "incomplete",
-        "week": 2,
-        "due_date": "2022-01-15"
-    },
-    {
-"id":  4,
-        "title": "Season and planting",
-        "content": "Plant throughout the year under irrigation. Plant during April for rainfed crop. Select healthy mosaic free vigorous plants for taking planting materials. Prepare setts of 15 cm long with 8 \u2013 10 nodes from the middle portion of the stem. Avoid mechanical damage while preparation and handling of setts. The cut end should be uniform. Dip the setts in Carbendazim 1 g in one l of water for 15 minutes before planting. Plant the setts vertically with buds pointing upward on the sides of ridges and furrows. 17,000 setts are needed for planting one ha. For rainfed conditions, treat the setts with a mixture of potassium chloride @ 5 g/lit and micronutrients viz., ZnSO4 and FeSO4 each @ 0.5%for 20 minutes.Dip the setts for 20 minutes in Azospirillum and phosphobacteria each at 30 g/l.",
-        "status": "incomplete",
-        "week": 4,
-        "due_date": "2022-01-29"
-    },
-    {
-"id":  5,
-        "title": "Varieties",
-        "content": "Co 2, Co 3, CO (TP) 4, MVD 1, H 165, H 226, Sree Vishakam (H.1687), Sree Sahaya (H.2304), Sree Prakash (S. 856), Sree Vijaya, Sree Jaya, Sree Pekha, Sree Prabha, Co (Tp) 5, H - 97, H - 165, H - 226 and Sree Harsha are the popular varieties of cassava.",
-        "status": "incomplete",
-        "week": 4,
-        "due_date": "2022-01-29"
-    },
-    {
-"id":  6,
-        "title": "Virus elimination through tissue culture in cassava",
-        "content": "The protocol for virus elimination through tissue culture has been standardized for the varieties MVD 1 and H 226 by using meristem culture. The Murashige and Skoog (MS) medium supplemented with BAP at 0.1 mg/l for meristem establishment and shoot growth and MS medium without growth regulators for rooting have to be followed. The in vitro plantlets are to be hardened in sterile pot mixture (sand : soil : FYM in 1 : 1: 1) under mist chamber for 10-15 days and later kept under shade net for 10 days before transferring them to the open field.",
-        "status": "incomplete",
-        "week": 4,
-        "due_date": "2022-01-29"
-    },
-    {
-"id":  7,
-        "title": "Planting",
-        "content": "Plant the setts vertically with buds pointing upward on the sides of ridges and furrows at following spacings. Irrigated: 75 x 75 cm (17,777 setts) and 90 x 90 cm (12,345 setts) Rainfed: 60 x 60 cm (27,777 setts) Under Kanyakumari conditions: 90 x 90 cm (12,345 setts)",
-        "status": "incomplete",
-        "week": 5,
-        "due_date": "2022-02-05"
-    },
-    {
-"id":  8,
-        "title": "Irrigation",
-        "content": "First irrigation is given at the time of planting. Life irrigation is given on the 3rd day followed by once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
-        "status": "incomplete",
-        "week": 7,
-        "due_date": "2022-02-19"
-    },
-    {
-"id":  9,
-        "title": "Drip irrigation",
-        "content": "Install drip system with main and sub-main and place the inline laterals at the interval of 1.5 m. Place the drippers at the interval of 60 cm for 4 LPH and 50 cm for 3.5 LPH in the lateral system. Form the raised beds at 120 cm width at an interval of 30cm and place the laterals at the centre of each bed.",
-        "status": "incomplete",
-        "week": 7,
-        "due_date": "2022-02-19"
-    },
-    {
-"id":  10,
-        "title": "Sequential cropping",
-        "content": "Raise Co 2 vegetable cowpea during March and harvest green pods before planting cassava during June \u2013July. After green pod harvest, incorporate the cowpea haulms into the field by disc ploughing. Through sequential cropping 50% reduction in application of FYM (12.5 t/ha) and P (30 kg/ha) is ensured.",
-        "status": "incomplete",
-        "week": 8,
-        "due_date": "2022-02-26"
-    },
-    {
-"id":  11,
-        "title": "Manuring",
-        "content": "Irrigated crops Apply 25 t/ha FYM and incorporate at the time of ploughing. Apply 45:90:120 kg NPK/ha as basal and 45:120 kg NK/ha on 90 days after planting during earthing up.",
-        "status": "incomplete",
-        "week": 8,
-        "due_date": "2022-02-26"
-    },
-    {
-"id":  12,
-        "title": "Rainfed crop",
-        "content": "FYM at 12.5 t/ha along with 50 kg N, 65 kg P and 125 kg K/ha is applied as basal. 2 kg of Azatobactor is appliedas soil application at 30 \u2013 60 days after planting on receipt of showers (2.0 kg Azatobacter + 20 kg FYM + 20 kg soil per hectare).",
-        "status": "incomplete",
-        "week": 9,
-        "due_date": "2022-03-05"
-    },
-    {
-"id":  13,
-        "title": "Chlorosis",
-        "content": "Micro nutrient deficiency can be controlled by foliar spraying of 1% FeSO4 + 0.5% ZnSO4 at 60 and 90 DAP.",
-        "status": "incomplete",
-        "week": 16,
-        "due_date": "2022-04-23"
-    },
-    {
-"id":  14,
-        "title": "After cultivation",
-        "content": "Fill up the gaps within 20 days of planting. Carry out 1st weeding 20 days after planting. Subsequent weedings should be done once in a month upto 5 months depending upon the weed intensity. Thin to two shoots per plant during 60th day. Grow aggregatum onion, coriander, short duration pulses and short duration vegetables as intercrops from planting date upto 60 days.",
-        "status": "incomplete",
-        "week": 32,
-        "due_date": "2022-08-13"
-    },
-    {
-"id":  15,
-        "title": "Plant protection",
-        "content": "Pests Mites Mites can be controlled by spraying with Dicofol 18.5 EC 2.5 ml/lit during 3rd and 5th month.",
-        "status": "incomplete",
-        "week": 32,
-        "due_date": "2022-08-13"
-    },
-    {
-"id":  16,
-        "title": "White fly (Bemisia tabaci)",
-        "content": "Integrated pest management practices: 1. Remove alternate weed hosts viz., Abutilon indicum. 2. Install yellow sticky trap at 12 Nos/ha. 3. Use nitrogen judiciously. 4. Avoid excessive irrigation. 5. Spray neem oil 3 % or fish oil rosin soap 25 g/lit or Methyl demeton 25 EC 2 ml/lit. While using neem oil, teepol should be added at 1 ml/lit for better contact with foliage. Apply Methyl demeton in the early stage and Phosalone in the late stages of crop growth. 6. Avoid use of synthetic Pyrethroids. 7. Avoid extending the crop growth beyond its duration.",
-        "status": "incomplete",
-        "week": 32,
-        "due_date": "2022-08-13"
-    },
-    {
-"id":  17,
-        "title": "Spiralling whitefly",
-        "content": "1. Grow resistant genotypes. 2. Install sticky cum light trap and operate between 4 to 6 a.m to attract the adult. 3. Spray Dichlorvos 76 WSC @ 1 ml/lit or Triazophos 40 EC 2 ml/lit. Add wetting agent. 4. Conserve parasitoids Encarsia haitiensis, E. guadeloupae.",
-        "status": "incomplete",
-        "week": 32,
-        "due_date": "2022-08-13"
-    },
-    {
-"id":  18,
-        "title": "Diseases",
-        "content": "Mosaic Select the planting materials from healthy plants. For the control of white fly vectors, adopt IPM practices mentioned above.",
-        "status": "incomplete",
-        "week": 32,
-        "due_date": "2022-08-13"
-    },
-    {
-"id":  19,
-        "title": "Cercospora Leaf spot",
-        "content": "Cercospora leaf spot can be controlled spraying Mancozeb at 2 g/lit twice at 15 days interval.",
-        "status": "incomplete",
-        "week": 32,
-        "due_date": "2022-08-13"
-    },
-    {
-"id":  20,
-        "title": "Tuber rot",
-        "content": "Avoid water stagnation. Give good drainage facilities. Spot drenching with Copper oxychloride 2.5 g/lit or apply through soil Trichoderma viride @ 2.5 kg/ha as basal and at 3rd and 6th month after planting.",
-        "status": "incomplete",
-        "week": 36,
-        "due_date": "2022-09-10"
-    },
-    {
-"id":  21,
-        "title": "Iron deficiency",
-        "content": "Spray 3 to 4 times Ferrous sulphate 2.5 g/lit on the appearance of deficiency symptom at weekly intervals. Equal quantity of lime should be added for neutralising the solution.",
-        "status": "incomplete",
-        "week": 36,
-        "due_date": "2022-09-10"
-    },
-    {
-"id":  22,
-        "title": "Harvest",
-        "content": "Crop can be harvested at 9 to 11 months after planting. During tuber maturity, the leaves become yellow and 50 % of leaves become dried and sheds off. The soil near the stem base of the stem shows cracking. Tubers can be uprooted by using fork or crow bar.",
-        "status": "incomplete",
-        "week": 44,
-        "due_date": "2022-11-05"
-    },
-    {
-"id":  23,
-        "title": "Fertigation requirement:",
-        "content": "90: 90 :240 kg of NPK / ha. Apply once in every three days throughout the cropping period.",
-        "status": "incomplete",
-        "week": 44,
-        "due_date": "2022-11-05"
-    },
-    {
-"id":  24,
-        "title": "Yield",
-        "content": "Irrigated : 40 - 50 t/ha Rainfed : 20 - 25 t/ha",
-        "status": "incomplete",
-        "week": 45,
-        "due_date": "2022-11-12 onwards"
-    },
-    {
-"id":  25,
-        "title": "CTCRI CO (Tp) 5 (Sree Padmanabha)",
-        "content": "Resistance to cassava mosaic disease. Season June \u2013 July ; October \u2013 November. Fairly good starch content (28%). Moderate tuber yield (38 t/ha). Erect and top branching habit. Regular flowering and seed setting. Tubers long, cylindrical, white flesh and low in cyanoglucoside. Duration 270 \u2013 300 days.",
-        "status": "incomplete",
-        "week": 45,
-        "due_date": "2022-11-12 onwards"
-    },
-    {
-"id":  26,
-        "title": "75% RD of Phosphorus applied as superphosphate 421.88 kg/ha.",
-        "content": "1. 19:19:19 = 47. kg / ha. 2. 13:0:45 = 140kg/ha. 3. 12:61:0 = 23kg/ha 4. 0:0:50 = 335kg / ha 5. Urea = 132 kg / ha.",
-        "status": "incomplete",
-        "week": "",
-        "due_date": ""
-    }
+  {
+    "id": 1,
+    "title": "Spacing:",
+    "content": "60 x 90cm in paired row system.",
+    "status": "complete",
+    "week": 1,
+    "due_date": "2022-01-08",
+    "points": 20
+},
+  {
+    "id": 2,
+    "title": "Climate and Soil",
+    "content": "Any well drained soil preferably red lateritic loam with a pH range of 5.5 -7.0 is best suited for tapioca cultivation. It thrives best in tropical, warm humid climate with well distributed rainfall of over 100 cm per annum. This crop can be cultivated upto an elevation of 1000 m.",
+    "status": "complete",
+    "week": 2,
+    "due_date": "2022-01-15",
+    "points": 20
+},
+  {
+    "id": 3,
+    "title": "Preparation of field",
+    "content": "Plough the field 4 \u2013 5 times to get a fine tilth. The soil depth should be atleast 30 cm and form ridges and furrows at the following spacing.",
+    "status": "missed",
+    "week": 2,
+    "due_date": "2022-01-15",
+    "points": 20
+},
+  {
+    "id": 4,
+    "title": "Season and planting",
+    "content": "Plant throughout the year under irrigation. Plant during April for rainfed crop. Select healthy mosaic free vigorous plants for taking planting materials. Prepare setts of 15 cm long with 8 \u2013 10 nodes from the middle portion of the stem. Avoid mechanical damage while preparation and handling of setts. The cut end should be uniform. Dip the setts in Carbendazim 1 g in one l of water for 15 minutes before planting. Plant the setts vertically with buds pointing upward on the sides of ridges and furrows. 17,000 setts are needed for planting one ha. For rainfed conditions, treat the setts with a mixture of potassium chloride @ 5 g/lit and micronutrients viz., ZnSO4 and FeSO4 each @ 0.5%for 20 minutes.Dip the setts for 20 minutes in Azospirillum and phosphobacteria each at 30 g/l.",
+    "status": "active",
+    "week": 4,
+    "due_date": "2022-01-29",
+    "points": 20
+},
+  {
+    "id": 5,
+    "title": "Varieties",
+    "content": "Co 2, Co 3, CO (TP) 4, MVD 1, H 165, H 226, Sree Vishakam (H.1687), Sree Sahaya (H.2304), Sree Prakash (S. 856), Sree Vijaya, Sree Jaya, Sree Pekha, Sree Prabha, Co (Tp) 5, H - 97, H - 165, H - 226 and Sree Harsha are the popular varieties of cassava.",
+    "status": "active",
+    "week": 4,
+    "due_date": "2022-01-29",
+    "points": 20
+},
+  {
+    "id": 6,
+    "title": "Virus elimination through tissue culture in cassava",
+    "content": "The protocol for virus elimination through tissue culture has been standardized for the varieties MVD 1 and H 226 by using meristem culture. The Murashige and Skoog (MS) medium supplemented with BAP at 0.1 mg/l for meristem establishment and shoot growth and MS medium without growth regulators for rooting have to be followed. The in vitro plantlets are to be hardened in sterile pot mixture (sand : soil : FYM in 1 : 1: 1) under mist chamber for 10-15 days and later kept under shade net for 10 days before transferring them to the open field.",
+    "status": "future",
+    "week": 4,
+    "due_date": "2022-01-29",
+    "points": 20
+},
+  {
+    "id": 7,
+    "title": "Planting",
+    "content": "Plant the setts vertically with buds pointing upward on the sides of ridges and furrows at following spacings. Irrigated: 75 x 75 cm (17,777 setts) and 90 x 90 cm (12,345 setts) Rainfed: 60 x 60 cm (27,777 setts) Under Kanyakumari conditions: 90 x 90 cm (12,345 setts)",
+    "status": "future",
+    "week": 5,
+    "due_date": "2022-02-05",
+    "points": 20
+},
+  {
+    "id": 8,
+    "title": "Irrigation",
+    "content": "First irrigation is given at the time of planting. Life irrigation is given on the 3rd day followed by once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 7,
+    "due_date": "2022-02-19",
+    "points": 20
+},
+  {
+    "id": 9,
+    "title": "Drip irrigation",
+    "content": "Install drip system with main and sub-main and place the inline laterals at the interval of 1.5 m. Place the drippers at the interval of 60 cm for 4 LPH and 50 cm for 3.5 LPH in the lateral system. Form the raised beds at 120 cm width at an interval of 30cm and place the laterals at the centre of each bed.",
+    "status": "future",
+    "week": 7,
+    "due_date": "2022-02-19",
+    "points": 20
+},
+  {
+    "id": 10,
+    "title": "Sequential cropping",
+    "content": "Raise Co 2 vegetable cowpea during March and harvest green pods before planting cassava during June \u2013July. After green pod harvest, incorporate the cowpea haulms into the field by disc ploughing. Through sequential cropping 50% reduction in application of FYM (12.5 t/ha) and P (30 kg/ha) is ensured.",
+    "status": "future",
+    "week": 8,
+    "due_date": "2022-02-26",
+    "points": 20
+},
+  {
+    "id": 11,
+    "title": "Manuring",
+    "content": "Irrigated crops Apply 25 t/ha FYM and incorporate at the time of ploughing. Apply 45:90:120 kg NPK/ha as basal and 45:120 kg NK/ha on 90 days after planting during earthing up.",
+    "status": "future",
+    "week": 8,
+    "due_date": "2022-02-26",
+    "points": 20
+},
+  {
+    "id": 12,
+    "title": "Rainfed crop",
+    "content": "FYM at 12.5 t/ha along with 50 kg N, 65 kg P and 125 kg K/ha is applied as basal. 2 kg of Azatobactor is appliedas soil application at 30 \u2013 60 days after planting on receipt of showers (2.0 kg Azatobacter + 20 kg FYM + 20 kg soil per hectare).",
+    "status": "future",
+    "week": 9,
+    "due_date": "2022-03-05",
+    "points": 20
+},
+  {
+    "id": 13,
+    "title": "Chlorosis",
+    "content": "Micro nutrient deficiency can be controlled by foliar spraying of 1% FeSO4 + 0.5% ZnSO4 at 60 and 90 DAP.",
+    "status": "active",
+    "week": 16,
+    "due_date": "2022-04-23",
+    "points": 20
+},
+  {
+    "id": 14,
+    "title": "After cultivation",
+    "content": "Fill up the gaps within 20 days of planting. Carry out 1st weeding 20 days after planting. Subsequent weedings should be done once in a month upto 5 months depending upon the weed intensity. Thin to two shoots per plant during 60th day. Grow aggregatum onion, coriander, short duration pulses and short duration vegetables as intercrops from planting date upto 60 days.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+},
+  {
+    "id": 15,
+    "title": "Plant protection",
+    "content": "Pests Mites Mites can be controlled by spraying with Dicofol 18.5 EC 2.5 ml/lit during 3rd and 5th month.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+},
+  {
+    "id": 16,
+    "title": "White fly (Bemisia tabaci)",
+    "content": "Integrated pest management practices: 1. Remove alternate weed hosts viz., Abutilon indicum. 2. Install yellow sticky trap at 12 Nos/ha. 3. Use nitrogen judiciously. 4. Avoid excessive irrigation. 5. Spray neem oil 3 % or fish oil rosin soap 25 g/lit or Methyl demeton 25 EC 2 ml/lit. While using neem oil, teepol should be added at 1 ml/lit for better contact with foliage. Apply Methyl demeton in the early stage and Phosalone in the late stages of crop growth. 6. Avoid use of synthetic Pyrethroids. 7. Avoid extending the crop growth beyond its duration.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+},
+  {
+    "id": 17,
+    "title": "Spiralling whitefly",
+    "content": "1. Grow resistant genotypes. 2. Install sticky cum light trap and operate between 4 to 6 a.m to attract the adult. 3. Spray Dichlorvos 76 WSC @ 1 ml/lit or Triazophos 40 EC 2 ml/lit. Add wetting agent. 4. Conserve parasitoids Encarsia haitiensis, E. guadeloupae.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+},
+  {
+    "id": 18,
+    "title": "Diseases",
+    "content": "Mosaic Select the planting materials from healthy plants. For the control of white fly vectors, adopt IPM practices mentioned above.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+},
+  {
+    "id": 19,
+    "title": "Cercospora Leaf spot",
+    "content": "Cercospora leaf spot can be controlled spraying Mancozeb at 2 g/lit twice at 15 days interval.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+},
+  {
+    "id": 20,
+    "title": "Tuber rot",
+    "content": "Avoid water stagnation. Give good drainage facilities. Spot drenching with Copper oxychloride 2.5 g/lit or apply through soil Trichoderma viride @ 2.5 kg/ha as basal and at 3rd and 6th month after planting.",
+    "status": "future",
+    "week": 36,
+    "due_date": "2022-09-10",
+    "points": 20
+},
+  {
+    "id": 21,
+    "title": "Iron deficiency",
+    "content": "Spray 3 to 4 times Ferrous sulphate 2.5 g/lit on the appearance of deficiency symptom at weekly intervals. Equal quantity of lime should be added for neutralising the solution.",
+    "status": "future",
+    "week": 36,
+    "due_date": "2022-09-10",
+    "points": 20
+},
+  {
+    "id": 22,
+    "title": "Harvest",
+    "content": "Crop can be harvested at 9 to 11 months after planting. During tuber maturity, the leaves become yellow and 50 % of leaves become dried and sheds off. The soil near the stem base of the stem shows cracking. Tubers can be uprooted by using fork or crow bar.",
+    "status": "future",
+    "week": 44,
+    "due_date": "2022-11-05",
+    "points": 20
+},
+  {
+    "id": 23,
+    "title": "Fertigation requirement:",
+    "content": "90: 90 :240 kg of NPK / ha. Apply once in every three days throughout the cropping period.",
+    "status": "future",
+    "week": 44,
+    "due_date": "2022-11-05",
+    "points": 20
+},
+  {
+    "id": 24,
+    "title": "Yield",
+    "content": "Irrigated : 40 - 50 t/ha Rainfed : 20 - 25 t/ha",
+    "status": "future",
+    "week": 45,
+    "due_date": "2022-11-12 onwards",
+    "points": 20
+},
+  {
+    "id": 25,
+    "title": "CTCRI CO (Tp) 5 (Sree Padmanabha)",
+    "content": "Resistance to cassava mosaic disease. Season June \u2013 July ; October \u2013 November. Fairly good starch content (28%). Moderate tuber yield (38 t/ha). Erect and top branching habit. Regular flowering and seed setting. Tubers long, cylindrical, white flesh and low in cyanoglucoside. Duration 270 \u2013 300 days.",
+    "status": "future",
+    "week": 45,
+    "due_date": "2022-11-12 onwards",
+    "points": 20
+},
+  {
+    "id": 26,
+    "title": "75% RD of Phosphorus applied as superphosphate 421.88 kg/ha.",
+    "content": "1. 19:19:19 = 47. kg / ha. 2. 13:0:45 = 140kg/ha. 3. 12:61:0 = 23kg/ha 4. 0:0:50 = 335kg / ha 5. Urea = 132 kg / ha.",
+    "status": "future",
+    "week": "",
+    "due_date": "",
+    "points": 20
+}
 ]
