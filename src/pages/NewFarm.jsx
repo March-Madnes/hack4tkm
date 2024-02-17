@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { ReactCam } from "../components/ReactCam";
 import { FarmHeader } from "../components/Farm";
+import Recommend from "./recommend/Recommend";
 
 const NewFarm = () => {
   const [selectedValue, setSelectedValue] = useState("default");
@@ -48,14 +49,51 @@ const NewFarm = () => {
         onSubmit={handleSubmit}
         className="p-3 bg-white w-4/5 rounded-3xl list-none flex flex-col items-stretch gap-2 shadow-lg mt-2"
       >
-        <label className="py-3">
-          Enter a name for your farm:
+        <label className="py-3 font-bold">
+          1. Enter a name for your farm:
           <input
             type="text"
-            className="text-2xl pt-4 text-green-700 font-bold border-b-2 border-dashed border-green-700 p-2 w-full"
-            placeholder="My New Farm"
+            className="text-lg pt-4 px-2 text-green-700 font-medium border-b-2 border-dashed border-green-700 w-full"
+            placeholder="My New Farm..."
           />
         </label>
+        <div className="py-3">
+          <div className="font-bold">
+            2. Enter soil nutrients details of the land:
+          </div>
+          <div className="flex flex-row gap-2 justify-center items-center p-1 mt-2 border-red-100 border-2 rounded-md">
+            <p className="w-1/2 text-xs text-orange-500 p-0">
+              You can get these from govt. issued Soil Health Card
+            </p>
+            <a
+              href="https://soilhealth.dac.gov.in/print-shc"
+              className="bg-green-700 p-2 rounded-md text-white w-1/2 text-center"
+            >
+              Print SHC
+            </a>
+          </div>
+          <label className="">
+            <input
+              type="text"
+              className="text-lg text-green-700 font-medium border-b-2 border-dashed border-green-700 pt-4 px-2 w-fit"
+              placeholder="Nitrogen KG/HA"
+            />
+          </label>
+          <label className="">
+            <input
+              type="text"
+              className="text-lg text-green-700 font-medium border-b-2 border-dashed border-green-700 pt-4 px-2 w-fit"
+              placeholder="Phosphorus KG/HA"
+            />
+          </label>
+          <label className="">
+            <input
+              type="text"
+              className="text-lg text-green-700 font-medium border-b-2 border-dashed border-green-700 pt-4 px-2 w-fit"
+              placeholder="Potassium KG/HA"
+            />
+          </label>
+        </div>
         {/* <label>
           Dropdown:
           <select value={selectedValue} onChange={handleDropdownChange}>
@@ -65,6 +103,9 @@ const NewFarm = () => {
             <option value="option3">Option 3</option>
           </select>
         </label> */}
+        <div className="py-3">
+          <Recommend />
+        </div>
         {/* Add more form fields here */}
         <div className="flex flex-row w-full gap-4 justify-evenly">
           <div className="flex flex-col justify-center items-center">
