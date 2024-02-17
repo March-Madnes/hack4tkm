@@ -58,8 +58,10 @@ export const Overview = () => {
         </div>
         <div className="flex flex-row w-full gap-4 justify-evenly">
           <div className="flex flex-col gap-2 shadow-lg p-2 w-1/2 rounded-xl">
-            <div className="text-xs text-gray-400">Cultivation Type</div>
-            <div className="text-lg font-semibold text-orange-700">Organic</div>
+            <div className="text-xs text-gray-400">NPK Content(Kg/Ha) </div>
+            <div className="text-lg font-semibold text-orange-700">
+              452 / 856 / 124
+            </div>
           </div>
           <Link to={"./tasks"} className="w-1/2">
             <div className="px-4 py-2 bg-green-700 text-white rounded-xl flex flex-row justify-between gap-3 items-center">
