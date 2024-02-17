@@ -4,8 +4,9 @@ import Webcam from "react-webcam";
 import { useNavigate } from 'react-router-dom';
 
 const videoConstraints = {
-    width: window.innerWidth,
-    height: 1000,
+    // width: window.innerWidth,
+    width: '500',
+    height: '1000',
     facingMode: "environment"
 };
 
@@ -28,7 +29,7 @@ export const ReactCam = () => {
     
     return (
         <div className='camera-box h-100'>
-        <Webcam  ref={webcamRef} 
+        <Webcam  ref={webcamRef}
             audio={false}
             screenshotFormat="image/jpeg"
             videoConstraints={videoConstraints}>
