@@ -2,6 +2,7 @@ import React from 'react';
 import { useState, useCallback, useRef } from 'react';
 import Webcam from "react-webcam";
 import { useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 const videoConstraints = {
     width: '1000',
@@ -10,6 +11,11 @@ const videoConstraints = {
 };
 
 export const ReactCam = () => {
+
+  const location = useLocation()
+  const { from } = location.state
+
+    
     const navigate = useNavigate();
     const webcamRef = useRef(null); // create a webcam reference
     const [imgSrc, setImgSrc] = useState(null); // initialize it
@@ -23,7 +29,11 @@ export const ReactCam = () => {
       const handleSave = () => {
         localStorage.setItem('capturedImage', imgSrc);
         console.log(imgSrc);
-        navigate(-1);
+        if(from === "newFarm"){
+          navigate('/new-farm')
+        }else{
+          navigate('/farm/1')
+        }
       };
     
     return (

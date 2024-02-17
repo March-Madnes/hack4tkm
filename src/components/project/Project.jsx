@@ -32,7 +32,7 @@ export const Project = () => {
         <FarmChip date={"16 Feb 2024"} status={"Severe Underhydration"} />
         <FarmChip date={"16 Feb 2024"} status={"Severe Underhydration"} />
         <div class="p-6 border rounded-3xl shadow-lg border-green-700 flex align-center flex-col items-center justify-center text-center">
-        <Link to="/camera" > <img
+        <Link to="/camera" state={{ from: "newFarm" }} > <img
             src="icons/camera-solid.svg"
             alt="camera"
             className="w-16 h-16 m-auto  bg-green-700 p-5 rounded-full"

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ReactCam } from "../components/ReactCam";
 import { FarmHeader } from "../components/Farm";
 import Recommend from "./recommend/Recommend";
+import { Link } from "react-router-dom";
 
 const NewFarm = () => {
   const [selectedValue, setSelectedValue] = useState("default");
@@ -109,6 +110,7 @@ const NewFarm = () => {
         {/* Add more form fields here */}
         <div className="flex flex-row w-full gap-4 justify-evenly">
           <div className="flex flex-col justify-center items-center">
+          <Link to="/camera" state={{ from: "newFarm" }} >
             <button
               type="submit"
               className="rounded-full bg-blue-700 p-3 w-fit"
@@ -118,7 +120,7 @@ const NewFarm = () => {
                 className="h-6 w-6"
                 alt="submit"
               ></img>
-            </button>
+            </button></Link>
             <span className="text-xs text-gray-500 pt-1">Retake</span>
           </div>
           {/* <div className="flex flex-col justify-center items-center">
