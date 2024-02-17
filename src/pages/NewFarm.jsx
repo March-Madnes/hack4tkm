@@ -7,6 +7,9 @@ import Navbar from "../components/Navbar";
 import { useEffect } from "react";
 
 const NewFarm = () => {
+  const image = localStorage.getItem("capturedImage");
+  const link = image ? image : "https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg";
+
   const [selectedValue, setSelectedValue] = useState("default");
 
   useEffect(() => {
@@ -52,7 +55,7 @@ const NewFarm = () => {
         className="w-full h-60 rounded-3xl bg-cover bg-center flex flex-col justify-between items-center gap-8 shadow-lg"
         style={{
           backgroundImage:
-            "url(https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg)",
+            `url(${link})`,
         }}
       ></div>
       <div className="p-3 bg-white w-4/5 rounded-3xl list-none flex flex-col items-stretch gap-2 -mt-4 shadow-lg">
