@@ -29,6 +29,8 @@ const Recommend = () => {
         </div>
       </div>
       <div className="m-3">
+            <h1 className='mb-2'>Crop Recommendations</h1>
+            <p>Below are a list of crops which fit the farm. These are currated to </p>
         <CropCard />
         <CropCard />
         <CropCard />
