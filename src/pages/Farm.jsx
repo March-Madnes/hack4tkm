@@ -1,6 +1,7 @@
 import React from "react";
 import { FarmHeader, Graph, Overview } from "../components/Farm";
 import LineChart from "../components/Chart";
+import Navbar from "../components/Navbar";
 
 const Farm = () => {
   return (
@@ -9,6 +10,7 @@ const Farm = () => {
       <Overview />
       {/* <Graph /> */}
       <LineChart />
+      <Navbar />
     </div>
   );
 };

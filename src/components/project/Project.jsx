@@ -2,6 +2,7 @@ import React from 'react'
 import './project.css'
 import { Link } from "react-router-dom";
 import { FarmChip } from "../Farm";
+import Navbar from '../Navbar';
 
 export const Project = () => {
   return (
@@ -55,7 +56,9 @@ export const Project = () => {
           content="Kerala is expected to recieve very heavy rainfall from the coming monsoon"
         />
       </div>
+      <Navbar />
     </div>
+
   );
 };
 

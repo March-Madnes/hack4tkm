@@ -3,6 +3,7 @@ import { ReactCam } from "../components/ReactCam";
 import { FarmHeader } from "../components/Farm";
 import Recommend from "./recommend/Recommend";
 import { Link } from "react-router-dom";
+import Navbar from "../components/Navbar";
 
 const NewFarm = () => {
   const [selectedValue, setSelectedValue] = useState("default");
@@ -151,6 +152,7 @@ const NewFarm = () => {
           </div>
         </div>
       </form>
+      <Navbar />
     </div>
   );
 };
