@@ -15,12 +15,12 @@ const NewFarm = () => {
   useEffect(() => {
     const sendImage = async () => {
       try {
-        const image = localStorage.getItem('capturedImage');
+        const image = localStorage.getItem("capturedImage");
         const formData = new FormData();
-        formData.append('image', image);
+        formData.append("image", image);
 
-        const response = await fetch('https://192.168.169.61:5000/api/predict', {
-          method: 'POST',
+        const response = await fetch("https://54.174.69.218/api/predict", {
+          method: "POST",
           body: formData,
         });
 
@@ -30,10 +30,10 @@ const NewFarm = () => {
           console.log(data);
         } else {
           // Handle error response
-          console.error('Error:', response.status);
+          console.error("Error:", response.status);
         }
       } catch (error) {
-        console.error('Error:', error);
+        console.error("Error:", error);
       }
     };
 
@@ -54,8 +54,7 @@ const NewFarm = () => {
       <div
         className="w-full h-60 rounded-3xl bg-cover bg-center flex flex-col justify-between items-center gap-8 shadow-lg"
         style={{
-          backgroundImage:
-            `url(${link})`,
+          backgroundImage: `url(${link})`,
         }}
       ></div>
       <div className="p-3 bg-white w-4/5 rounded-3xl list-none flex flex-col items-stretch gap-2 -mt-4 shadow-lg">
@@ -127,6 +126,13 @@ const NewFarm = () => {
               placeholder="Potassium KG/HA"
             />
           </label>
+          <label className="p-2">
+            <input
+              type="text"
+              className="text-lg text-green-700 font-medium border-b-2 border-dashed border-green-700 pt-4 px-2 w-fit"
+              placeholder="pH"
+            />
+          </label>
         </div>
         {/* <label>
           Dropdown:
@@ -143,17 +149,18 @@ const NewFarm = () => {
         {/* Add more form fields here */}
         <div className="flex flex-row w-full gap-4 justify-evenly">
           <div className="flex flex-col justify-center items-center">
-          <Link to="/camera" state={{ from: "newFarm" }} >
-            <button
-              type="submit"
-              className="rounded-full bg-blue-700 p-3 w-fit"
-            >
-              <img
-                src="icons/camera-solid.svg"
-                className="h-6 w-6"
-                alt="submit"
-              ></img>
-            </button></Link>
+            <Link to="/camera" state={{ from: "newFarm" }}>
+              <button
+                type="submit"
+                className="rounded-full bg-blue-700 p-3 w-fit"
+              >
+                <img
+                  src="icons/camera-solid.svg"
+                  className="h-6 w-6"
+                  alt="submit"
+                ></img>
+              </button>
+            </Link>
             <span className="text-xs text-gray-500 pt-1">Retake</span>
           </div>
           {/* <div className="flex flex-col justify-center items-center">
@@ -169,24 +176,26 @@ const NewFarm = () => {
             </button>
             <span className="text-xs text-gray-500 pt-1">Edit</span>
           </div> */}
-          <Link to={"/farm/1"} >
-          <div className="flex flex-col justify-center items-center">
-            <button
-              type="submit"
-              className="rounded-full bg-green-700 p-3 w-fit"
-            >
-              <img
-                src="icons/check-solid.svg"
-                className="h-6 w-6"
-                alt="submit"
-              ></img>
-            </button>
-            <span className="text-xs text-gray-500 pt-1">Submit</span>
-          </div>
+          <Link to={"/farm/1"}>
+            <div className="flex flex-col justify-center items-center">
+              <button
+                type="submit"
+                className="rounded-full bg-green-700 p-3 w-fit"
+              >
+                <img
+                  src="icons/check-solid.svg"
+                  className="h-6 w-6"
+                  alt="submit"
+                ></img>
+              </button>
+              <span className="text-xs text-gray-500 pt-1">Submit</span>
+            </div>
           </Link>
         </div>
       </form>
-      <br /><br /><br />
+      <br />
+      <br />
+      <br />
       <Navbar />
     </div>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./farmTasks.css";
 import { FarmHeader } from "../components/Farm";
-import Tasks from "../library/final.json";
+import Tasks from "../library/tapioca.json";
 
 const FarmTasks = () => {
   const [tasks, setTasks] = useState(Tasks);
@@ -110,7 +110,7 @@ const Task = ({
           {dueDate}
         </time>
         <time className="block mb-3 text-sm font-normal leading-none text-orange-500 px-3">
-          +{points} points
+          {points} points
         </time>
       </div>
       <time className="block mb-3 text-sm font-normal leading-none text-gray-500 ">

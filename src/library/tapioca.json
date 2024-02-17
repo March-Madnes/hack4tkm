@@ -1,0 +1,236 @@
+[
+  {
+    "id": 1,
+    "title": "Planting:",
+    "content": "Plant throughout the year under irrigation. Plant during April for rainfed crop. Select healthy mosaic free vigorous plants for taking planting materials. Prepare setts of 15 cm long with 8 \u2013 10 nodes from the middle portion of the stem. Avoid mechanical damage while preparation and handling of setts. The cut end should be uniform. Dip the setts in Carbendazim 1 g in one l of water for 15 minutes before planting. Plant the setts vertically with buds pointing upward on the sides of ridges and furrows. 17,000 setts are needed for planting one ha. For rainfed conditions, treat the setts with a mixture of potassium chloride @ 5 g/lit and micronutrients viz., ZnSO4 and FeSO4 each @ 0.5%for 20 minutes.Dip the setts for 20 minutes in Azospirillum and phosphobacteria each at 30 g/l.",
+    "status": "complete",
+    "week": 1,
+    "due_date": "2022-01-08",
+    "points": 20
+  },
+  {
+    "id": 2,
+    "title": "First Irrigation",
+    "content": "First irrigation is given at the time of planting. The ground needs to be completly soaked",
+    "status": "complete",
+    "week": 2,
+    "due_date": "2022-01-15",
+    "points": 20
+  },
+  {
+    "id": 3,
+    "title": "Day 3 Irrigation",
+    "content": "Irrigation is given on the 3rd day followed by once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "missed",
+    "week": 2,
+    "due_date": "2022-01-15",
+    "points": 20
+  },
+  {
+    "id": 4,
+    "title": "Week 2 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "active",
+    "week": 4,
+    "due_date": "2022-01-29",
+    "points": 20
+  },
+  {
+    "id": 5,
+    "title": "Week 3 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "upcoming",
+    "week": 4,
+    "due_date": "2022-01-29",
+    "points": 20
+  },
+  {
+    "id": 6,
+    "title": "Week 4 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 4,
+    "due_date": "2022-01-29",
+    "points": 20
+  },
+  {
+    "id": 7,
+    "title": "Week 5 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 5,
+    "due_date": "2022-02-05",
+    "points": 20
+  },
+  {
+    "id": 8,
+    "title": "Week 6 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 7,
+    "due_date": "2022-02-19",
+    "points": 20
+  },
+  {
+    "id": 9,
+    "title": "Week 7 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 7,
+    "due_date": "2022-02-19",
+    "points": 20
+  },
+  {
+    "id": 10,
+    "title": "Week 8 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 8,
+    "due_date": "2022-02-26",
+    "points": 20
+  },
+  {
+    "id": 11,
+    "title": "Week 9 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 8,
+    "due_date": "2022-02-26",
+    "points": 20
+  },
+  {
+    "id": 12,
+    "title": "Week 10 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 9,
+    "due_date": "2022-03-05",
+    "points": 20
+  },
+  {
+    "id": 13,
+    "title": "Week 11 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 16,
+    "due_date": "2022-04-23",
+    "points": 20
+  },
+  {
+    "id": 14,
+    "title": "Week 12 Irrigation",
+    "content": "Crop Needs to be irrigated once in 7 \u2013 10 days upto 3rd month and once in 20 \u2013 30 days upto 8th month.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+  },
+  {
+    "id": 15,
+    "title": "Plant protection",
+    "content": "Pests Mites Mites can be controlled by spraying with Dicofol 18.5 EC 2.5 ml/lit during 3rd and 5th month.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+  },
+  {
+    "id": 16,
+    "title": "White fly (Bemisia tabaci)",
+    "content": "Integrated pest management practices: 1. Remove alternate weed hosts viz., Abutilon indicum. 2. Install yellow sticky trap at 12 Nos/ha. 3. Use nitrogen judiciously. 4. Avoid excessive irrigation. 5. Spray neem oil 3 % or fish oil rosin soap 25 g/lit or Methyl demeton 25 EC 2 ml/lit. While using neem oil, teepol should be added at 1 ml/lit for better contact with foliage. Apply Methyl demeton in the early stage and Phosalone in the late stages of crop growth. 6. Avoid use of synthetic Pyrethroids. 7. Avoid extending the crop growth beyond its duration.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+  },
+  {
+    "id": 17,
+    "title": "Spiralling whitefly",
+    "content": "1. Grow resistant genotypes. 2. Install sticky cum light trap and operate between 4 to 6 a.m to attract the adult. 3. Spray Dichlorvos 76 WSC @ 1 ml/lit or Triazophos 40 EC 2 ml/lit. Add wetting agent. 4. Conserve parasitoids Encarsia haitiensis, E. guadeloupae.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+  },
+  {
+    "id": 18,
+    "title": "Diseases",
+    "content": "Mosaic Select the planting materials from healthy plants. For the control of white fly vectors, adopt IPM practices mentioned above.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+  },
+  {
+    "id": 19,
+    "title": "Cercospora Leaf spot",
+    "content": "Cercospora leaf spot can be controlled spraying Mancozeb at 2 g/lit twice at 15 days interval.",
+    "status": "future",
+    "week": 32,
+    "due_date": "2022-08-13",
+    "points": 20
+  },
+  {
+    "id": 20,
+    "title": "Tuber rot",
+    "content": "Avoid water stagnation. Give good drainage facilities. Spot drenching with Copper oxychloride 2.5 g/lit or apply through soil Trichoderma viride @ 2.5 kg/ha as basal and at 3rd and 6th month after planting.",
+    "status": "future",
+    "week": 36,
+    "due_date": "2022-09-10",
+    "points": 20
+  },
+  {
+    "id": 21,
+    "title": "Iron deficiency",
+    "content": "Spray 3 to 4 times Ferrous sulphate 2.5 g/lit on the appearance of deficiency symptom at weekly intervals. Equal quantity of lime should be added for neutralising the solution.",
+    "status": "future",
+    "week": 36,
+    "due_date": "2022-09-10",
+    "points": 20
+  },
+  {
+    "id": 22,
+    "title": "Harvest",
+    "content": "Crop can be harvested at 9 to 11 months after planting. During tuber maturity, the leaves become yellow and 50 % of leaves become dried and sheds off. The soil near the stem base of the stem shows cracking. Tubers can be uprooted by using fork or crow bar.",
+    "status": "future",
+    "week": 44,
+    "due_date": "2022-11-05",
+    "points": 20
+  },
+  {
+    "id": 23,
+    "title": "Fertigation requirement:",
+    "content": "90: 90 :240 kg of NPK / ha. Apply once in every three days throughout the cropping period.",
+    "status": "future",
+    "week": 44,
+    "due_date": "2022-11-05",
+    "points": 20
+  },
+  {
+    "id": 24,
+    "title": "Yield",
+    "content": "Irrigated : 40 - 50 t/ha Rainfed : 20 - 25 t/ha",
+    "status": "future",
+    "week": 45,
+    "due_date": "2022-11-12 onwards",
+    "points": 20
+  },
+  {
+    "id": 25,
+    "title": "CTCRI CO (Tp) 5 (Sree Padmanabha)",
+    "content": "Resistance to cassava mosaic disease. Season June \u2013 July ; October \u2013 November. Fairly good starch content (28%). Moderate tuber yield (38 t/ha). Erect and top branching habit. Regular flowering and seed setting. Tubers long, cylindrical, white flesh and low in cyanoglucoside. Duration 270 \u2013 300 days.",
+    "status": "future",
+    "week": 45,
+    "due_date": "2022-11-12 onwards",
+    "points": 20
+  },
+  {
+    "id": 26,
+    "title": "75% RD of Phosphorus applied as superphosphate 421.88 kg/ha.",
+    "content": "1. 19:19:19 = 47. kg / ha. 2. 13:0:45 = 140kg/ha. 3. 12:61:0 = 23kg/ha 4. 0:0:50 = 335kg / ha 5. Urea = 132 kg / ha.",
+    "status": "future",
+    "week": "",
+    "due_date": "",
+    "points": 20
+  }
+]
