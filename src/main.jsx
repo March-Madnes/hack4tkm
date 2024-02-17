@@ -20,10 +20,6 @@ const router = createBrowserRouter([
     element: <Project />,
   },
   {
-    path: "/projects",
-    element: <Project />,
-  },
-  {
     path: "/farm/:id",
     element: <Farm />,
   },
@@ -36,7 +32,7 @@ const router = createBrowserRouter([
     element: <FarmTasks />,
   },
   {
-    path: "new-farm",
+    path: "/new-farm",
     element: <NewFarm />,
   },
   {
