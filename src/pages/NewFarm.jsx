@@ -11,30 +11,36 @@ const NewFarm = () => {
   const link = image ? image : "https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg";
 
   const [selectedValue, setSelectedValue] = useState("default");
+  const [extraxtedData, setExtractedData] = useState({
+    soil_type: "None",
+    soil_moisture: 0,
+  });
 
   useEffect(() => {
     const sendImage = async () => {
-      try {
-        const image = localStorage.getItem("capturedImage");
-        const formData = new FormData();
-        formData.append("image", image);
+      const imgSrc = localStorage.getItem("capturedImage");
+      // Convert base64 image to a file
+      const fetchResponse = await fetch(imgSrc);
+      const blob = await fetchResponse.blob();
+      const file = new File([blob], "webcam-image.jpg", { type: "image/jpeg" });
 
-        const response = await fetch("https://54.174.69.218/api/predict", {
-          method: "POST",
-          body: formData,
-        });
+      // Create FormData
+      const formData = new FormData();
+      formData.append('image', file); // Append the file to the form data
 
-        if (response.ok) {
-          // Handle successful response
-          const data = await response.json();
-          console.log(data);
-        } else {
-          // Handle error response
-          console.error("Error:", response.status);
-        }
-      } catch (error) {
-        console.error("Error:", error);
-      }
+      // Send the image to the server using fetch API
+      fetch('https://ec2-54-174-69-218.compute-1.amazonaws.com/api/predict', {
+        method: 'POST',
+        body: formData,
+      })
+      .then(response => response.json())
+      .then(data => {
+        setExtractedData(data);
+        console.log('Success:', data);
+      })
+      .catch((error) => {
+        console.error('Error:', error);
+      });
     };
 
     sendImage();
@@ -62,11 +68,11 @@ const NewFarm = () => {
         <div className="p-1 flex flex-row flex-wrap">
           <div className="p-1 w-1/2">
             <div className="text-xs text-gray-400">Soil Type</div>
-            <li className="text-green-700 font-semibold">Red Soil</li>
+            <li className="text-green-700 font-semibold">{extraxtedData.soil_type}</li>
           </div>
           <div className="p-1 w-1/2">
             <div className="text-xs text-gray-400">Soil Moisture(%)</div>
-            <li className="text-green-700 font-semibold">50</li>
+            <li className="text-green-700 font-semibold">{extraxtedData.soil_moisture}</li>
           </div>
           <div className="p-1 w-1/2">
             <div className="text-xs text-gray-400">Location</div>

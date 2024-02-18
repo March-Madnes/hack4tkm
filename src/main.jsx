@@ -13,7 +13,6 @@ import FarmTasks from "./pages/FarmTasks.jsx";
 import { ReactCam } from './components/ReactCam.jsx';
 import Recommend from './pages/recommend/Recommend.jsx';
 import NewFarm from "./pages/NewFarm.jsx";
-import NewCam from './pages/NewCam.jsx';
 
 const router = createBrowserRouter([
   {
@@ -39,9 +38,6 @@ const router = createBrowserRouter([
   {
     path: "/recommend",
     element: <Recommend />,
-  },{
-    path: "/test",
-    element: <NewCam />,
   }
 ]);
 
