@@ -8,9 +8,12 @@ import { useEffect } from "react";
 
 const NewFarm = () => {
   const image = localStorage.getItem("capturedImage");
-  const link = image ? image : "https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg";
+  const link = image
+    ? image
+    : "https://t3.ftcdn.net/jpg/05/02/18/64/360_F_502186443_Kubg3Wl76uE8BYl1tcAuYYXgGKAaO6r4.jpg";
 
   const [selectedValue, setSelectedValue] = useState("default");
+  const [cropSuggestions, setCropSuggestions] = useState(null); // [crop1, crop2, crop3, ...
   const [extraxtedData, setExtractedData] = useState({
     soil_type: "None",
     soil_moisture: 0,
@@ -26,21 +29,21 @@ const NewFarm = () => {
 
       // Create FormData
       const formData = new FormData();
-      formData.append('image', file); // Append the file to the form data
+      formData.append("image", file); // Append the file to the form data
 
       // Send the image to the server using fetch API
-      fetch('https://i-moisture-backend.vercel.app/api/predict', {
-        method: 'POST',
+      fetch("https://i-moisture-backend.vercel.app/api/predict", {
+        method: "POST",
         body: formData,
       })
-      .then(response => response.json())
-      .then(data => {
-        setExtractedData(data);
-        console.log('Success:', data);
-      })
-      .catch((error) => {
-        console.error('Error:', error);
-      });
+        .then((response) => response.json())
+        .then((data) => {
+          setExtractedData(data);
+          console.log("Success:", data);
+        })
+        .catch((error) => {
+          console.error("Error:", error);
+        });
     };
 
     sendImage();
@@ -52,7 +55,39 @@ const NewFarm = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Handle form submission logic here
+    let params = {};
+    params = {
+      ...params,
+      soil_type: extraxtedData.soil_type,
+      moisture: extraxtedData.soil_moisture,
+    };
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const latitude = position.coords.latitude;
+          const longitude = position.coords.longitude;
+          params = { ...params, latitude: latitude, longitude: longitude };
+        },
+        (error) => {
+          console.log(error);
+        }
+      );
+    } else {
+      console.log("Geolocation not supported");
+    }
+
+    fetch("https://i-moisture-backend.vercel.app/api/crop_suggest", {
+      method: "GET",
+      params: params,
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        setCropSuggestions(data);
+        console.log("Success:", data);
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
 
   return (
@@ -68,11 +103,15 @@ const NewFarm = () => {
         <div className="p-1 flex flex-row flex-wrap">
           <div className="p-1 w-1/2">
             <div className="text-xs text-gray-400">Soil Type</div>
-            <li className="text-green-700 font-semibold">{extraxtedData.soil_type}</li>
+            <li className="text-green-700 font-semibold">
+              {extraxtedData.soil_type}
+            </li>
           </div>
           <div className="p-1 w-1/2">
             <div className="text-xs text-gray-400">Soil Moisture(%)</div>
-            <li className="text-green-700 font-semibold">{extraxtedData.soil_moisture}</li>
+            <li className="text-green-700 font-semibold">
+              {extraxtedData.soil_moisture}
+            </li>
           </div>
           <div className="p-1 w-1/2">
             <div className="text-xs text-gray-400">Location</div>
@@ -149,9 +188,6 @@ const NewFarm = () => {
             <option value="option3">Option 3</option>
           </select>
         </label> */}
-        <div className="py-3">
-          <Recommend />
-        </div>
         {/* Add more form fields here */}
         <div className="flex flex-row w-full gap-4 justify-evenly">
           <div className="flex flex-col justify-center items-center">
@@ -187,6 +223,7 @@ const NewFarm = () => {
               <button
                 type="submit"
                 className="rounded-full bg-green-700 p-3 w-fit"
+                onClick={(e) => handleSubmit(e)}
               >
                 <img
                   src="icons/check-solid.svg"
@@ -202,6 +239,11 @@ const NewFarm = () => {
       <br />
       <br />
       <br />
+      {cropSuggestions && (
+        <div className="py-3 mb-4">
+          <Recommend />
+        </div>
+      )}
       <Navbar />
     </div>
   );
