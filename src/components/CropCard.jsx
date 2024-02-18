@@ -1,7 +1,8 @@
 import React from 'react';
 
-const CropCard = ( crop ) => {
+const CropCard = () => {
     return (
+      <Link to="/farm/1">
       <div
         id="toast-default"
         className="flex items-center p-4 text-gray-500 bg-white rounded-lg shadow-lg mb-3 border"
@@ -24,6 +25,7 @@ const CropCard = ( crop ) => {
             <i class="fa-solid fa-check"></i>
         </button> */}
       </div>
+      </Link>
     );
 }
 
