@@ -29,7 +29,7 @@ const NewFarm = () => {
       formData.append('image', file); // Append the file to the form data
 
       // Send the image to the server using fetch API
-      fetch('https://ec2-54-174-69-218.compute-1.amazonaws.com/api/predict', {
+      fetch('https://i-moisture-backend.vercel.app/api/predict', {
         method: 'POST',
         body: formData,
       })
@@ -44,7 +44,7 @@ const NewFarm = () => {
     };
 
     sendImage();
-  }, []);
+  }, [image]);
 
   const handleDropdownChange = (event) => {
     setSelectedValue(event.target.value);
