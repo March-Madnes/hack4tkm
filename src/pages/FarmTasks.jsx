@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./farmTasks.css";
 import { FarmHeader } from "../components/Farm";
 import Tasks from "../library/tapioca.json";
+import { Link } from "react-router-dom";
 
 const FarmTasks = () => {
   const [tasks, setTasks] = useState(Tasks);
@@ -125,6 +126,7 @@ const Task = ({
       </time>
       {status === "active" ? (
         <div className="flex w-full justify-end">
+          <Link to = "/camera" state={{ from: "update" }} >
           <button className="px-4 py-2 bg-green-700 text-white rounded-xl flex flex-row justify-center gap-3 items-center">
             <p>Upload Image</p>
             <img
@@ -133,6 +135,7 @@ const Task = ({
               className="w-5 h-5"
             />
           </button>
+          </Link>
         </div>
       ) : null}
     </li>

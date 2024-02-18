@@ -20,7 +20,7 @@ export const Project = () => {
             <i className="fa-solid fa-temperature-three-quarters pl-3"></i>
           </div>
           <div className="flex justify-end align-center">
-            17/02/2024
+            18/02/2024
             <i className="fa-solid fa-calendar-days pl-3"></i>{" "}
           </div>
         </div>
